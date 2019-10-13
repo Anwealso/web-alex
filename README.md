@@ -4,7 +4,7 @@ ___
 
 ## Planning
 Sitemap:
-![image](sitempa-v1.png)
+![image](sitemap-v1.png)
 
 ## TODO
 - all css
