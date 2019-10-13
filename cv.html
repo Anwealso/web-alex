@@ -1,47 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Header -->
+    <!-- Header Content -->
     <head>
-        <link rel="stylesheet" href="css/main.css">
+        <!-- UTF8 Character Encoding -->
         <meta charset="utf-8">
+
+        <!-- Link to stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!-- Page Tab Title -->
         <title>Contact</title>
     </head>
 
-     <!-- Body -->
+    <!-- Body Content -->
     <body>
-        <!-- Desktop Navbar -->
-        <div class="nav hide-mobile show-desktop">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <!-- <li><a href="blog.html">About</a></li> -->
+        <!-- Header -->
+        <header>
+            <!-- Desktop Navbar -->
+            <div class="nav">
+                <div class="nav-header">
+                    <!-- Top Text -->
+                    <a href="index.html"><h1>Alex Nicholson</h1></a>
+                    <!-- <a href="index.html"><h1>Nicholson</h1></a> -->
+                </div>
+                <div class="nav-content">
+                    <!-- Nav Buttons -->
+                    <div class="nav-butttons">
+                        <ul class="nav-list">
+                            <li><a href="index.html" class="list-number">00</a><a href="index.html"> home</a></li>
+                            <li><a href="about.html" class="list-number">01</a><a href="about.html"> about</a></li>
+                            <li><a href="contact.html" class="list-number">02</a><a href="contact.html"> contact</a></li>
+                            <!-- <li><a href="blog.html">About</a></li> -->
+                        </ul>
+                    </div>
+    
+                    <!-- Links -->
+                    <!-- Want to have them hovering in foreground at bottom of page -->
+                    <div class="nav-links">
+                        <ul class="nav-list">
+                            <li><a href="https://github.com/anwealso" class="list-number">03</a><a href="https://github.com/anwealso"> github</a></li>
+                            <!-- <a href="">Linkedin</a> -->
+                            <li><a href="cv.html" class="list-number">04</a><a href="cv.html"> cv</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- My CV -->
+        <div class="subpage-content subpage-content-cv">
+            <!-- Heading -->
+            <h2>Curriculum Vitae</h2>
+            <!-- Download Button -->
+            <div class="download-btn">
+                <a href="downoads/cv.pdf" download="Alex Nicholson CV">Download</a>
+            </div>
+    
+            <!-- Live CV -->
+            <div class="cv-content">
+                <!-- Education -->
+                <h3>Education</h3>
+                <ul class="cv-list">
+                        <li class="list-subheading">St Peters Lutheran College 2013 - 17</li>
+                        <li class="list-subheading"> Studying dual degree of Engineering and Computer Science at the University of Queensland 2018 - …</li>
                 </ul>
-        </div>
-
-        <h1>CV</h1>
-        <div class="download-btn">
-            <a href="downoads/cv.pdf" download="Alex Nicholson CV"><button>Download</button></a>
-        </div>
-
-        <!-- Live CV -->
-        <div>
-            <!-- Education -->
-            <h2>Education</h2>
-            <p>
-                <ul>
-                    <li>St Peters Lutheran College 2013 - 17</li>
-                    <li>Studying dual degree of Engineering and Computer Science at the University of Queensland 2018 - …</li>
-                </ul>
-            </p>
-
-            <!-- Technical Skills -->
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>
-                    <!-- Software Skills -->
-                    <h3>Software</h3>
-                    <ul>
+    
+                <!-- Technical Skills -->
+                <h3>Technical Skills</h3>
+                <!-- Software Skills -->
+                <h4 class="list-subheading">Software:</h4>
+                    <ul class="cv-list">
                         <li>Python</li>
                         <li>Java</li>
                         <li>C (Atmel Microcontroller Hardware)</li>
@@ -49,56 +77,55 @@
                         <li>CSS</li>
                     </ul>
                     <!-- Mech Skills -->
-                    <h3>Mechanical</h3>
-                    <ul>
+                    <h4 class="list-subheading">Mechanical:</h4>
+                    <ul class="cv-list">
                         <li>CAD (PTC CREO, Inventor, AutoCAD)</li>
                         <li>3D Printer Manufacturing</li>
                         <li>Laser Cutter Manufacturing</li>
                     </ul>
                     <!-- Elec Skills -->
-                    <h3>Electrical</h3>
-                    <ul>
+                    <h4>Electrical:</h4>
+                    <ul class="cv-list">
                         <li>Altium PCB Design</li>
                     </ul>
-                </li>
-            </ul>
-
-            <!-- Employment -->
-            <h2>Employment / Work Experience</h2>
-            <ul>
-                <li>Tutoring High School Math</li>
-                <li>Volunteered at RoboCup Junior Queensland Championships 2019
-                    <ul>
-                        <li>Refereeing, timing, grading</li>
-                    </ul>
-                </li>
-                <li>Volunteered with Django Girls for Web Programming Workshop
-                    <ul>
-                        <li>Web coding in Python, HTML, CSS</li>
-                    </ul>
-                </li>
-                <li>Worked as a builders labourer - March to July 2018 (casual)
-                    <ul>
-                        <li>Teamwork skills</li>
-                        <li>Experienced with health and safety procedures</li>
-                        <li>Responsible for using a range of machinery</li>
-                    </ul>
-                </li>
-                <li>Indigenous Community Volunteering trip
-                    <ul>
-                        <li>Teaching reading to disadvantaged primary school children</li>
-                        <li>Facilitating sports activities</li>
-                        <li>Visiting elderly patients in care</li>
-                    </ul>
-                </li>
-                <li>Volunteered at Ironside Kindergarten
-                    <ul>
-                        <li>Teamwork skills</li>
-                        <li>Activity set up and tidy up</li>
-                        <li>General duties</li>
-                    </ul>
-                </li>
-            </ul>
+    
+                <!-- Employment -->
+                <h3>Employment / Work Experience</h3>
+                <ul class="cv-list">
+                    <li class="list-subheading"></li>Tutoring High School Math</li>
+                    <li class="list-subheading">Volunteered at RoboCup Junior Queensland Championships 2019
+                        <ul class="cv-sublist">
+                            <li>Refereeing, timing, grading</li>
+                        </ul>
+                    </li>
+                    <li class="list-subheading">Volunteered with Django Girls for Web Programming Workshop
+                        <ul class="cv-sublist">
+                            <li>Web coding in Python, HTML, CSS</li>
+                        </ul>
+                    </li>
+                    <li class="list-subheading">Worked as a builders labourer - March to July 2018 (casual)
+                        <ul class="cv-sublist">
+                            <li>Teamwork skills</li>
+                            <li>Experienced with health and safety procedures</li>
+                            <li>Responsible for using a range of machinery</li>
+                        </ul>
+                    </li>
+                    <li class="list-subheading">Indigenous Community Volunteering trip
+                        <ul class="cv-sublist">
+                            <li>Teaching reading to disadvantaged primary school children</li>
+                            <li>Facilitating sports activities</li>
+                            <li>Visiting elderly patients in care</li>
+                        </ul>
+                    </li>
+                    <li class="list-subheading">Volunteered at Ironside Kindergarten
+                        <ul class="cv-sublist">
+                            <li>Teamwork skills</li>
+                            <li>Activity set up and tidy up</li>
+                            <li>General duties</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </body>
 </html>

@@ -3,14 +3,14 @@ My Personal Website
 ___
 
 ## Planning
-Sitemap:
+Sitemap:  
 ![image](images/sitemap-v1.png)
 
 ## TODO
 - all css
-- about.html
 
 ## Implemented
 - index.html
 - contact.html
 - cv.html
+- about.html

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One|Roboto+Mono:regular,bold&display=swap');
+
+html, body {
+    background: whitesmoke;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Navigation */
+.nav-header {
+    padding-top: 8px;
+    padding-left: 20px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.list-number:hover {
+    font-weight: normal;
+    color: #a8a8a8;
+}
+
+.nav-links {
+    position: relative;
+    bottom: 79px;
+    left: 120px;
+}
+
+.nav-content {
+    position: relative;
+    bottom: 10px;
+}
+
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    /* font-family: "Rubik Mono One"; */
+    /* text-align: center; */
+    margin: 0px;
+    padding: 0px;
+    font-size: 2.5em;
+}
+
+.nav {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+
+.list-number {
+    color: #a8a8a8
+}
+
+
+/* Projects */
+.project-preview-image {
+    max-height: 200px;
+    max-width: 200px;
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
+
+.projects {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.project-card {
+    width: 90%;
+    margin: auto;
+    padding: 0px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+}
+
+.project-card-content {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex: 1;
+}
+
+.project-card-content-description {
+    padding: 20px;
+}
+
+/* Subpage Formatting */
+.subpage-content {
+    text-align: center;
+    position: relative;
+    /* padding-left: 20px; */
+    bottom: 60px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.social-link {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px
+}
+
+/* CV */
+.download-btn {
+    position: relative;
+    bottom: 20px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
+.subpage-content {
+    margin: auto;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px 50px 50px 50px;
+    width: 90%;
+    /* height: 1000%; */
+}
+
+.subpage-content-cv {
+    background-color: yellow;
+}
+
+.subpage-content-contact {
+    /* background-color: rgb(127, 255, 234); */
+    background-color: pink;
+}
+
+.subpage-content-about {
+    background-color: greenyellow;
+}
+
+.subpage-content-projects {
+    width: 90%;
+    /* padding-top: 16px; */
+    background-color: rgb(127, 255, 234);
+    /* background-color: gainsboro; */
+    margin-bottom: 15px;
+}
+
+.cv-list {
+    padding: 0;
+    margin: 0;
+}
+
+.list-subheading {
+    margin-top: 15px;
+}
+
+.cv-sublist {
+    font-size: 0.6em;
+}

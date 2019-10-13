@@ -1,46 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Header -->
+    <!-- Header Content -->
     <head>
-        <link rel="stylesheet" href="css/main.css">
+        <!-- UTF8 Character Encoding -->
         <meta charset="utf-8">
+
+        <!-- Link to stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!-- Page Tab Title -->
         <title>Contact</title>
     </head>
 
-     <!-- Body -->
+    <!-- Body Content -->
     <body>
-        <!-- Desktop Navbar -->
-        <div class="nav hide-mobile show-desktop">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <!-- <li><a href="blog.html">About</a></li> -->
-                </ul>
-        </div>
+        <!-- Header -->
+        <header>
+            <!-- Desktop Navbar -->
+            <div class="nav">
+                <div class="nav-header">
+                    <!-- Top Text -->
+                    <a href="index.html"><h1>Contact</h1></a>
+                    <!-- <a href="index.html"><h1>Nicholson</h1></a> -->
+                </div>
+                <div class="nav-content">
+                    <!-- Nav Buttons -->
+                    <div class="nav-butttons">
+                        <ul class="nav-list">
+                            <li><a href="index.html" class="list-number">00</a><a href="index.html"> home</a></li>
+                            <li><a href="about.html" class="list-number">01</a><a href="about.html"> about</a></li>
+                            <li><a href="contact.html" class="list-number">02</a><a href="contact.html"> contact</a></li>
+                            <!-- <li><a href="blog.html">About</a></li> -->
+                        </ul>
+                    </div>
+    
+                    <!-- Links -->
+                    <!-- Want to have them hovering in foreground at bottom of page -->
+                    <div class="nav-links">
+                        <ul class="nav-list">
+                            <li><a href="https://github.com/anwealso" class="list-number">03</a><a href="https://github.com/anwealso"> github</a></li>
+                            <!-- <a href="">Linkedin</a> -->
+                            <li><a href="cv.html" class="list-number">04</a><a href="cv.html"> cv</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-        <h1>Contact</h1>
-        <div contact-links>
-            <!-- Email -->
-            <div>
-                <a href="mailto:alnicholo@gmail.com"><img src="images/gmail.png" alt=""></a>
-                <a href="mailto:alnicholo@gmail.com">Send me an email at alnicholo@gmail.com</a>
-            </div>
-            <!-- Facebook -->
-            <div>
-                <a href="https://www.facebook.com/profile.php?id=100011785440247"><img src="images/facebook.png" alt=""></a>
-                <a href="https://www.facebook.com/profile.php?id=100011785440247">Friend me on Facebook</a>
-            </div>
-            <!-- Github -->
-            <div>
-                <a href="https://github.com/anwealso"><img src="images/github.svg" alt=""></a>
-                <a href="https://github.com/anwealso">Follow me on github</a>
-            </div>
-            <!-- Linkedin -->
-            <div>
-                <a href=""><img src="images/linkedin.png" alt=""></a>
-                <a href="https://github.com/anwealso">Connect with me on Linkedin</a>
-                (once I get an account 🤗)
+        <!-- Contact Me -->
+        <div class="subpage-content subpage-content-contact">
+            <h2>Contact</h2>
+            <div class="contact-links">
+                <!-- Email -->
+                <div>
+                    <a href="mailto:alnicholo@gmail.com"><img class="social-icon" src="images/gmail.png" alt=""></a>
+                    <div class="social-link"><a href="mailto:alnicholo@gmail.com">Send me an email at alnicholo@gmail.com</a></div>
+                </div>
+                <!-- Github -->
+                <div>
+                        <a href="https://github.com/anwealso"><img class="social-icon" src="images/github.svg" alt=""></a>
+                        <div class="social-link"><a href="https://github.com/anwealso">Follow me on Github</a></div>
+                </div>
+                <!-- Facebook -->
+                <div>
+                    <a href="https://www.facebook.com/profile.php?id=100011785440247"><img class="social-icon" src="images/facebook.png" alt=""></a>
+                    <div class="social-link"><a href="https://www.facebook.com/profile.php?id=100011785440247">Friend me on Facebook</a></div>
+                </div>
+                <!-- Linkedin -->
+                <div>
+                    <a href=""><img class="social-icon" src="images/linkedin.png" alt=""></a>
+                    <div class="social-link">
+                        <a href="https://github.com/anwealso">Connect with me on Linkedin</a>
+                        <div><a style="font-size: 8px">(once I get an account)</a></div>
+                    </div>
             </div>
         </div>
     </body>
