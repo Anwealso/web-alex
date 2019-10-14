@@ -31,11 +31,26 @@ ul {
 .nav-header {
     padding-top: 8px;
     padding-left: 20px;
+    /* Mobile Omtimised */
+    font-size: 2em;
+    /* Desktop Omtimised */
+    /* font-size: 1em; */
 }
 
 .nav-list {
     list-style-type: none;
     padding-left: 20px;
+    /* Mobile Omtimised */
+    font-size: 3em;
+    /* Desktop Omtimised */
+    /* font-size: 1em;  */
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex: 1;
 }
 
 .list-number:hover {
@@ -43,11 +58,11 @@ ul {
     color: #a8a8a8;
 }
 
-.nav-links {
+/* .nav-links {
     position: relative;
     bottom: 79px;
     left: 120px;
-}
+} */
 
 .nav-content {
     position: relative;
@@ -86,6 +101,7 @@ h1 {
     height: 50%;
     width: 50%;
     object-fit: contain;
+    padding: 20px 20px 0px 0px;
 }
 
 .projects {
@@ -110,6 +126,10 @@ h1 {
 
 .project-card-content-description {
     padding: 20px;
+}
+
+.project-h3 {
+    padding-top: 20px;
 }
 
 /* Subpage Formatting */
@@ -152,7 +172,10 @@ h4 {
 }
 
 .subpage-content {
+    position: relative;
+    top: 0px;
     margin: auto;
+    margin-bottom: 1%;
     padding-top: 1px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -163,24 +186,28 @@ h4 {
 }
 
 .subpage-content-cv {
-    background-color: yellow;
+    /* background-color: yellow; */
+    background-image: linear-gradient(-20deg, rgb(255, 188, 100), yellow);
 }
 
 .subpage-content-contact {
     /* background-color: rgb(127, 255, 234); */
+    background-image: linear-gradient(-20deg, rgb(255, 192, 247), pink);
     background-color: pink;
 }
 
 .subpage-content-about {
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
+    background-image: linear-gradient(-20deg, rgb(241, 255, 47), greenyellow);
+
 }
 
 .subpage-content-projects {
     width: 90%;
     /* padding-top: 16px; */
-    background-color: rgb(127, 255, 234);
-    /* background-color: gainsboro; */
-    margin-bottom: 15px;
+    /* background-color: rgb(127, 255, 234); */
+    background-image: linear-gradient(-20deg, rgb(127, 225, 255), rgb(127, 255, 234));
+    padding-bottom: 50px;
 }
 
 .cv-list {
